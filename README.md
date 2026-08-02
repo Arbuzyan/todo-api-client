@@ -1,6 +1,6 @@
 # Todo API Client
 
-Консольный клиент для работы с REST API JSONPlaceholder
+Консольное приложение на Python для работы с REST API сервиса JSONPlaceholder
 
 ## Возможности
 
@@ -12,20 +12,31 @@
 
 ## Используемые технологии
 
-- Python
+- Python 3
 - Requests
 - REST API
+- JSON
 
-##
+```
+client.py      # Логика работы с API
+config.py      # Конфигурация проекта
+main.py        # Консольное меню
+```
 
-## Как запуститть
+## Установка и запуск
 
 ```bash
+git clone https://github.com/Arbuzyan/todo-api-client.git
+
+cd todo-api-client
+
 pip install -r requirements.txt
 
 python main.py
 ```
 
-## Источнк данных
+## API
+
+Проект использует:
 
 https://jsonplaceholder.typicode.com/todos
